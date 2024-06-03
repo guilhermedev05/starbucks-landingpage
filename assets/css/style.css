@@ -11,3 +11,67 @@ header .line{
     background-color: #117050;
     height: 10px;
 }
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    margin-right: 55px;
+}
+
+.header-search form {
+    display: flex;
+    border: 1px solid #999999;
+}
+
+.header-search input{
+    padding: 10px 16px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    max-width: 250px;
+    border: 0;
+}
+
+.header-search button {
+    border: 0;
+    background-color: transparent;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+.header-search button img {
+    width: 16px;
+    height: 16px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
