@@ -154,7 +154,7 @@ header .line{
     background-image: url(../images/f2.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
+    height: 350px;
 }
 
 .area1-img2 {
@@ -174,10 +174,6 @@ header .line{
     padding: 80px;
 }
 
-.area2-quote {
-    margin-bottom: 30px;
-}
-
 .area2-text {
     margin-bottom: 50px;
     line-height: 25px;
@@ -187,7 +183,7 @@ header .line{
     background-image: url(../images/f4.jpg);
     background-position: center;
     background-size: cover;
-    height: 368px;
+    height: 450px;
 }
 
 .area2-img2 {
@@ -196,4 +192,74 @@ header .line{
     background-image: url(../images/f3.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-content {
+    background-image: url(../images/bg2.jpg);
+    background-position: left;
+    background-size: cover;
+    padding: 200px 80px;
+}
+
+.area3-text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3-img1 {
+    background-image: url(../images/f5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.area4 {
+    display: grid;
+    grid-template-columns: 425px 1fr;
+    background-color: #e8e9ee;
+}
+
+.area4-content {
+    padding: 150px 80px;
+}
+
+.area4-text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4-img1 {
+    background-image: url(../images/bg3.jpg);
+    background-position: left;
+}
+
+.area5 {
+    background-image: url(../images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    transition: ease-in 0.2s;
+}
+
+footer a:hover {
+    font-size: 20px;
+    text-decoration: underline;
 }
